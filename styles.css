@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("assets/image/top-view-sewing-accesories-with-copy-space.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.preloader {
+    position: fixed;
+    background: rgb(255, 255, 255) url('assets/image/Branding for Corti_ai.gif') no-repeat center center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100; /* Ensure the preloader is on top of other content */
+  }
+
+main img {
+    width: 50%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #FBCA00;
+}
+
+main h1 {
+    padding: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+main p {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+main #countdown {
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem;
+    font-weight: 800;
+}
+
+footer p {
+    text-align: center;
+    padding: 1rem
+}
+
+footer .socials {
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    padding: 1rem;
+    border: 1px solid #FBCA00;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+footer .mailto {
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.mailto  a {
+    padding: 1rem;
+    border: 1px solid #FBCA00;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #C28256;
+}
